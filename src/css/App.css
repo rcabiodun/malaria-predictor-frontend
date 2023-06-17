@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 header{
-    padding: 0 4rem;
+    padding: 0 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -67,6 +67,19 @@ nav{
     width: 9rem;
 
 }
+.nav-link-btn3{
+    color: #fff;
+    font-family: 'Poppins';
+    height: 3rem;
+    background-color:#4ECDC4;;
+    display: flex;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 9rem;
+
+}
 .nav-link-btn2{
     color:#4ECDC4;
     font-family: 'Poppins';
@@ -88,7 +101,7 @@ nav{
 }
 .f-section{
     display: flex;
-    padding: 0 4rem;
+    padding: 0 2rem;
     margin-top: 3.5rem;
 }
 
@@ -136,7 +149,7 @@ nav{
     
 }
 #bubble-section{
-    padding: 0 4rem;
+    padding: 0 2rem;
 
 }
 .bubbles{
@@ -149,6 +162,8 @@ nav{
     border-radius: 50%;
     overflow: hidden;
   text-overflow: ellipsis;
+  box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.1), 0 6px 20px 0 rgba(0, 0,0,0.19);
+
 
 }
 #bubble-area{
@@ -166,7 +181,7 @@ nav{
 .f-container-number{
     display: flex;
     border-radius: 5.8rem;
-    border: 0.2rem solid #4ECDC4;;
+    border: 0.2rem solid #4ECDC4;
     width:7rem;
     height: 6.5rem;
     justify-content: center;
@@ -180,12 +195,15 @@ nav{
     color: #4ECDC4;
     font-size: 2rem;
 }
+link{
+    text-decoration: none;
+}
 
 @media screen and (max-width: 650px) {
     
     .f-section{
         display: flex;
-        padding: 0 4rem;
+        padding: 0 2rem;
         margin-top: 3.5rem;
         width:100%;
         flex-direction: column;
@@ -219,16 +237,17 @@ nav{
         display: flex;
         border: 0;
         justify-content: center;
-        align-content: center;
-        width:2rem;
-        height: 2rem;
-        border: 0.1rem solid #4ECDC4;
+        align-items: center;
+        width:2.5rem;
+        height: 2.5rem;
+        background-color: #4ECDC4;
+        color:white;
+        border-radius: 1rem;
     }
 
     #logo{
-        background-color: #FFE66D;
-        width: 2.7rem;
-        height: 2.7rem;
+        width: 4rem;
+        height: 4rem;
         display: flex;
         border-radius: 50%;
         align-items: center;
@@ -244,17 +263,24 @@ nav{
         width:10rem;
         
     }
-    .nav-link-btn{
-        color: #fff;
-        font-family: 'Poppins';
-        height: 2.5rem;
-        background-color:#4ECDC4;;
+    #bubble-area{
         display: flex;
-        border-radius: 0.5rem;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
-        text-decoration: none;
-        width: 8rem;
+    }
+    #bubble-section{
+        width: 100%;
+
     
+    }
+    .bubbles{
+        margin: 0.5rem;
+    }
+    .nav-link-btn{
+        display:none;
+    }
+    #search{
+        display: none;
     }
   }

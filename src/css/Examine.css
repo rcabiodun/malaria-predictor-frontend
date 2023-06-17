@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); 
+body{
+    margin: 0;
+}
+
+#formContainer{
+    flex-grow: 1;
+    padding: 0 4rem;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    padding: 3.5rem 0;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+label{
+    font-family: "Poppins";
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 300;
+}
+input{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    height: 2rem;
+}
+
+.nav-link-btn3{
+    color: #fff;
+    font-family: 'Poppins';
+    height: 3rem;
+    background-color:#4ECDC4;;
+    display: flex;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 9rem;
+    border:0
+
+}
+#resultTxt{
+    font-family: "Poppins";
+    font-size: 1.4rem;
+}
+#DescriptionTxt{
+    margin-top: 3rem;
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    text-align: center;
+}
+.form-fields{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    padding: 0 1.3rem;
+    width:70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0,0, 0.09), 0 6px 20px 0 rgba(0, 0,0,0.15);
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    border-radius: 1rem;
+
+}
+
+.check-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+input{
+    margin-bottom: 1rem;
+}
+
+#check-section{
+    display: flex;
+    flex-direction: row;
+
+}
+#infoTxt{
+    text-align: center;
+}
+
+#submit-btn{
+        width: 6rem;
+    height: 3rem;
+    background-color: #4ECDC4;
+    font-family: "Poppins";
+    color:white;
+    border: 0;
+
+}
+
+#emailField{
+    border-radius: 1rem;
+    border-width: 0.1rem;
+    border-color: #520000;
+}
+@media screen and (max-width: 650px) {
+    
+    #formContainer{
+        padding: 0 4rem;
+        margin-top: 3.5rem;
+        width:100%;
+        flex-direction: column;
+        align-items: center;
+    justify-content: center;
+
+    }
+}
